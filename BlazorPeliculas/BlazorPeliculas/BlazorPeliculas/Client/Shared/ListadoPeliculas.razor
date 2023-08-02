@@ -1,0 +1,31 @@
+﻿@if (peliculas is null)
+{
+    <img alt="Cargando" src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif?20151024034921" />
+}
+else if (peliculas.Count == 0)
+{
+
+    <p>No hay peliculas para mostrar</p>
+
+}
+else
+{
+    <input type="checkbox" @bind = "MostrarBotones"/>
+    <span>
+        Mostrar botones
+    </span>
+    @foreach (var pelicula in peliculas)
+    {
+        <PeliculaIndividual pelicula="pelicula" MostrarBotones="MostrarBotones"/>
+    }
+}
+
+
+
+@code {
+
+    [Parameter]
+    public List<Pelicula>? peliculas { get; set; }
+    bool MostrarBotones = false;
+
+}

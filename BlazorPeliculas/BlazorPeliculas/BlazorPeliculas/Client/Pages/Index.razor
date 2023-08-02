@@ -1,0 +1,32 @@
+﻿@page "/"
+
+<div>
+    <h3>Pelicula</h3>
+    <ListadoPeliculas peliculas="Obtenerpeliculas()"/>
+</div>
+
+<BindeAfterDemo/>
+
+@code{
+    List<Pelicula> Obtenerpeliculas()
+    {
+        return new List<Pelicula>()
+        {
+            new Pelicula
+            {
+                Titulo = "Wakanda Forever",
+                FechaLanzamiento = new DateTime(2022, 11, 11)
+            },
+            new Pelicula
+            {
+                Titulo = "Mohana", 
+                FechaLanzamiento = new DateTime(2016, 11, 23)
+            },
+            new Pelicula
+            {
+                Titulo = "Inception",
+                FechaLanzamiento = new DateTime(2023, 07, 31)
+            }
+        };
+    }
+}
