@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Practicantepc\\Documents\\JohanDocs\\BlazorPeliculas\\BlazorPeliculas\\BlazorPeliculas\\Client\\BlazorPeliculas.Client.csproj": {}
+    "C:\\Users\\Practicantepc\\Documents\\JohanDocs\\CursoEmpresa\\BlazorPeliculas\\BlazorPeliculas\\BlazorPeliculas\\Client\\BlazorPeliculas.Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Practicantepc\\Documents\\JohanDocs\\BlazorPeliculas\\BlazorPeliculas\\BlazorPeliculas\\Client\\BlazorPeliculas.Client.csproj": {
+    "C:\\Users\\Practicantepc\\Documents\\JohanDocs\\CursoEmpresa\\BlazorPeliculas\\BlazorPeliculas\\BlazorPeliculas\\Client\\BlazorPeliculas.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Practicantepc\\Documents\\JohanDocs\\BlazorPeliculas\\BlazorPeliculas\\BlazorPeliculas\\Client\\BlazorPeliculas.Client.csproj",
+        "projectUniqueName": "C:\\Users\\Practicantepc\\Documents\\JohanDocs\\CursoEmpresa\\BlazorPeliculas\\BlazorPeliculas\\BlazorPeliculas\\Client\\BlazorPeliculas.Client.csproj",
         "projectName": "BlazorPeliculas.Client",
-        "projectPath": "C:\\Users\\Practicantepc\\Documents\\JohanDocs\\BlazorPeliculas\\BlazorPeliculas\\BlazorPeliculas\\Client\\BlazorPeliculas.Client.csproj",
+        "projectPath": "C:\\Users\\Practicantepc\\Documents\\JohanDocs\\CursoEmpresa\\BlazorPeliculas\\BlazorPeliculas\\BlazorPeliculas\\Client\\BlazorPeliculas.Client.csproj",
         "packagesPath": "C:\\Users\\Practicantepc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Practicantepc\\Documents\\JohanDocs\\BlazorPeliculas\\BlazorPeliculas\\BlazorPeliculas\\Client\\obj\\",
+        "outputPath": "C:\\Users\\Practicantepc\\Documents\\JohanDocs\\CursoEmpresa\\BlazorPeliculas\\BlazorPeliculas\\BlazorPeliculas\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Practicantepc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Practicantepc\\Documents\\JohanDocs\\BlazorPeliculas\\BlazorPeliculas\\BlazorPeliculas\\Shared\\BlazorPeliculas.Shared.csproj": {
-                "projectPath": "C:\\Users\\Practicantepc\\Documents\\JohanDocs\\BlazorPeliculas\\BlazorPeliculas\\BlazorPeliculas\\Shared\\BlazorPeliculas.Shared.csproj"
+              "C:\\Users\\Practicantepc\\Documents\\JohanDocs\\CursoEmpresa\\BlazorPeliculas\\BlazorPeliculas\\BlazorPeliculas\\Shared\\BlazorPeliculas.Shared.csproj": {
+                "projectPath": "C:\\Users\\Practicantepc\\Documents\\JohanDocs\\CursoEmpresa\\BlazorPeliculas\\BlazorPeliculas\\BlazorPeliculas\\Shared\\BlazorPeliculas.Shared.csproj"
               }
             }
           }
@@ -44,6 +44,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "MathNet.Numerics": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
               "version": "[7.0.9, )"
@@ -85,14 +89,14 @@
         }
       }
     },
-    "C:\\Users\\Practicantepc\\Documents\\JohanDocs\\BlazorPeliculas\\BlazorPeliculas\\BlazorPeliculas\\Shared\\BlazorPeliculas.Shared.csproj": {
+    "C:\\Users\\Practicantepc\\Documents\\JohanDocs\\CursoEmpresa\\BlazorPeliculas\\BlazorPeliculas\\BlazorPeliculas\\Shared\\BlazorPeliculas.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Practicantepc\\Documents\\JohanDocs\\BlazorPeliculas\\BlazorPeliculas\\BlazorPeliculas\\Shared\\BlazorPeliculas.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Practicantepc\\Documents\\JohanDocs\\CursoEmpresa\\BlazorPeliculas\\BlazorPeliculas\\BlazorPeliculas\\Shared\\BlazorPeliculas.Shared.csproj",
         "projectName": "BlazorPeliculas.Shared",
-        "projectPath": "C:\\Users\\Practicantepc\\Documents\\JohanDocs\\BlazorPeliculas\\BlazorPeliculas\\BlazorPeliculas\\Shared\\BlazorPeliculas.Shared.csproj",
+        "projectPath": "C:\\Users\\Practicantepc\\Documents\\JohanDocs\\CursoEmpresa\\BlazorPeliculas\\BlazorPeliculas\\BlazorPeliculas\\Shared\\BlazorPeliculas.Shared.csproj",
         "packagesPath": "C:\\Users\\Practicantepc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Practicantepc\\Documents\\JohanDocs\\BlazorPeliculas\\BlazorPeliculas\\BlazorPeliculas\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\Practicantepc\\Documents\\JohanDocs\\CursoEmpresa\\BlazorPeliculas\\BlazorPeliculas\\BlazorPeliculas\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Practicantepc\\AppData\\Roaming\\NuGet\\NuGet.Config",

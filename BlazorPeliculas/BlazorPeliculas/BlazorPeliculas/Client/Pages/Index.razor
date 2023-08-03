@@ -1,32 +1,38 @@
 ﻿@page "/"
+@inject IRepositorio repositorio
 
+<PageTitle>Blazor Películas</PageTitle>
+
+<HeadContent>
+    <meta name="description" content="Página para visualizar peliculas"
+</HeadContent> 
+
+<button @onclick="LimpiarPeliculas">Limpiar peliculas</button>
 <div>
     <h3>Pelicula</h3>
-    <ListadoPeliculas peliculas="Obtenerpeliculas()"/>
+    <ListadoPeliculas @ref="listadoPeliculas" peliculas="Peliculas"/>
+       
 </div>
 
-<BindeAfterDemo/>
+
+
+
 
 @code{
-    List<Pelicula> Obtenerpeliculas()
+
+    private void LimpiarPeliculas()
     {
-        return new List<Pelicula>()
-        {
-            new Pelicula
-            {
-                Titulo = "Wakanda Forever",
-                FechaLanzamiento = new DateTime(2022, 11, 11)
-            },
-            new Pelicula
-            {
-                Titulo = "Mohana", 
-                FechaLanzamiento = new DateTime(2016, 11, 23)
-            },
-            new Pelicula
-            {
-                Titulo = "Inception",
-                FechaLanzamiento = new DateTime(2023, 07, 31)
-            }
-        };
+        listadoPeliculas.LimpiarPeliculas();
     }
+    public List<Pelicula>?Peliculas { get; set; }
+    public ListadoPeliculas? listadoPeliculas;
+    protected override void OnInitialized()
+    {
+        Peliculas = repositorio.ObtenerPeliculas();
+    }
+   
+
+    
+
+    
 }

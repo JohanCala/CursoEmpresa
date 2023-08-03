@@ -1,31 +1,51 @@
-﻿@if (peliculas is null)
-{
-    <img alt="Cargando" src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif?20151024034921" />
-}
-else if (peliculas.Count == 0)
-{
+﻿@inject IJSRuntime js
 
-    <p>No hay peliculas para mostrar</p>
+<div style="display: flex; flex-wrap:wrap; align-items:center">
+    <ListadoGenerico Listado="peliculas">
+        <HayRegistros Context="pelicula">
+            <PeliculaIndividual pelicula="pelicula"
+                                EliminarPelicula="EliminarPeliculas" />
+        </HayRegistros>
+    </ListadoGenerico>
+</div>
 
-}
-else
-{
-    <input type="checkbox" @bind = "MostrarBotones"/>
-    <span>
-        Mostrar botones
-    </span>
-    @foreach (var pelicula in peliculas)
-    {
-        <PeliculaIndividual pelicula="pelicula" MostrarBotones="MostrarBotones"/>
-    }
-}
 
 
 
 @code {
 
     [Parameter]
+    [EditorRequired]
     public List<Pelicula>? peliculas { get; set; }
-    bool MostrarBotones = false;
+    
+
+    public void LimpiarPeliculas()
+    {
+        if(peliculas is not null)
+        {
+            peliculas.Clear();
+        }
+    }
+
+    
+
+
+
+
+
+
+    private async Task EliminarPeliculas(Pelicula pelicula)
+    {
+        var confirmado = await js.Confirm($"Desea borrar la pelicula {pelicula.Titulo}?");
+        
+
+        if (confirmado)
+        {
+            Console.WriteLine("elimando pelicula");
+            peliculas!.Remove(pelicula);
+            
+        }
+       
+    }
 
 }

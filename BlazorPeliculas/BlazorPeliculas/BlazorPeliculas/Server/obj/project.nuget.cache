@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "APXTZy113HbT8evATJuc4SKduW6hGKPjAW0Y6jabjFCmniDmusShhyGUFksLwQZ6/vNdIY0or1ZHLF8Uz61U0g==",
+  "dgSpecHash": "H1N6lKzJa7O0T2Wj61tA07ofUhKn+qXivrXorboLTuB4L0m5EGiT84L67rA6isx35uvKJHAGoI5P6DQsEIl0Sg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Practicantepc\\Documents\\JohanDocs\\BlazorPeliculas\\BlazorPeliculas\\BlazorPeliculas\\Server\\BlazorPeliculas.Server.csproj",
+  "projectFilePath": "C:\\Users\\Practicantepc\\Documents\\JohanDocs\\CursoEmpresa\\BlazorPeliculas\\BlazorPeliculas\\BlazorPeliculas\\Server\\BlazorPeliculas.Server.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Practicantepc\\.nuget\\packages\\mathnet.numerics\\5.0.0\\mathnet.numerics.5.0.0.nupkg.sha512",
     "C:\\Users\\Practicantepc\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.9\\microsoft.aspnetcore.authorization.7.0.9.nupkg.sha512",
     "C:\\Users\\Practicantepc\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.9\\microsoft.aspnetcore.components.7.0.9.nupkg.sha512",
     "C:\\Users\\Practicantepc\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\7.0.9\\microsoft.aspnetcore.components.analyzers.7.0.9.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Practicantepc\\Documents\\JohanDocs\\BlazorPeliculas\\BlazorPeliculas\\BlazorPeliculas\\Shared\\BlazorPeliculas.Shared.csproj": {}
+    "C:\\Users\\Practicantepc\\Documents\\JohanDocs\\CursoEmpresa\\BlazorPeliculas\\BlazorPeliculas\\BlazorPeliculas\\Shared\\BlazorPeliculas.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Practicantepc\\Documents\\JohanDocs\\BlazorPeliculas\\BlazorPeliculas\\BlazorPeliculas\\Shared\\BlazorPeliculas.Shared.csproj": {
+    "C:\\Users\\Practicantepc\\Documents\\JohanDocs\\CursoEmpresa\\BlazorPeliculas\\BlazorPeliculas\\BlazorPeliculas\\Shared\\BlazorPeliculas.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Practicantepc\\Documents\\JohanDocs\\BlazorPeliculas\\BlazorPeliculas\\BlazorPeliculas\\Shared\\BlazorPeliculas.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Practicantepc\\Documents\\JohanDocs\\CursoEmpresa\\BlazorPeliculas\\BlazorPeliculas\\BlazorPeliculas\\Shared\\BlazorPeliculas.Shared.csproj",
         "projectName": "BlazorPeliculas.Shared",
-        "projectPath": "C:\\Users\\Practicantepc\\Documents\\JohanDocs\\BlazorPeliculas\\BlazorPeliculas\\BlazorPeliculas\\Shared\\BlazorPeliculas.Shared.csproj",
+        "projectPath": "C:\\Users\\Practicantepc\\Documents\\JohanDocs\\CursoEmpresa\\BlazorPeliculas\\BlazorPeliculas\\BlazorPeliculas\\Shared\\BlazorPeliculas.Shared.csproj",
         "packagesPath": "C:\\Users\\Practicantepc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Practicantepc\\Documents\\JohanDocs\\BlazorPeliculas\\BlazorPeliculas\\BlazorPeliculas\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\Practicantepc\\Documents\\JohanDocs\\CursoEmpresa\\BlazorPeliculas\\BlazorPeliculas\\BlazorPeliculas\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Practicantepc\\AppData\\Roaming\\NuGet\\NuGet.Config",
