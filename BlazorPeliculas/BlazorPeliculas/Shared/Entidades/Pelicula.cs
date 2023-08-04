@@ -8,10 +8,14 @@ namespace BlazorPeliculas.Shared.Entidades
 {
     public class Pelicula
     {
+        public int ID { get; set; }
         public string Titulo { get; set; } = null!;
-        public DateTime FechaLanzamiento { get; set; }
-        public string Poster { get; set; } = null!;
-        public string TituloCortado
+        public string? Resumen { get; set; }
+        public bool EnCartelera { get; set; }
+        public string? Trailer { get; set; }
+        public DateTime Lanzamiento { get; set; }
+        public string? Poster { get; set; } = null!;
+        public string? TituloCortado
         {
             get
             {

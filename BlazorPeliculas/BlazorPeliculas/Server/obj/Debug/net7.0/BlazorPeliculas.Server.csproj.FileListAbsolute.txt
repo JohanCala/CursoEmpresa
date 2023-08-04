@@ -165,3 +165,5 @@ C:\Users\Practicantepc\Documents\JohanDocs\CursoEmpresa\BlazorPeliculas\BlazorPe
 C:\Users\Practicantepc\Documents\JohanDocs\CursoEmpresa\BlazorPeliculas\BlazorPeliculas\Server\obj\Debug\net7.0\BlazorPeliculas.Server.pdb
 C:\Users\Practicantepc\Documents\JohanDocs\CursoEmpresa\BlazorPeliculas\BlazorPeliculas\Server\obj\Debug\net7.0\BlazorPeliculas.Server.genruntimeconfig.cache
 C:\Users\Practicantepc\Documents\JohanDocs\CursoEmpresa\BlazorPeliculas\BlazorPeliculas\Server\obj\Debug\net7.0\ref\BlazorPeliculas.Server.dll
+C:\Users\Practicantepc\Documents\JohanDocs\CursoEmpresa\BlazorPeliculas\BlazorPeliculas\Server\bin\Debug\net7.0\CurrieTechnologies.Razor.SweetAlert2.dll
+C:\Users\Practicantepc\Documents\JohanDocs\CursoEmpresa\BlazorPeliculas\BlazorPeliculas\Server\bin\Debug\net7.0\Markdig.dll
