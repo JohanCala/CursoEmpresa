@@ -1,0 +1,19 @@
+﻿@page "/"
+@inject Irepositorio repositorio
+
+<PageTitle>Blazor Peliculas</PageTitle>
+
+<div>
+    <h1>Pelicula</h1>
+    <ListadoPeliculas Peliculas="Peliculas"/>
+</div>
+
+@code{
+
+    public List<Pelicula>? Peliculas { get; set; }
+
+    protected override void OnInitialized()
+    {
+        Peliculas = repositorio.ObtenerPeliculas();
+    }
+}
