@@ -9,13 +9,13 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BlazorPeliculas.Server
 build_property.RootNamespace = BlazorPeliculas.Server
-build_property.ProjectDir = C:\Users\johan\OneDrive\Documentos\GitHub\CursoEmpresa\BlazorPeliculas\BlazorPeliculas\Server\
+build_property.ProjectDir = C:\Users\Practicantepc\Documents\JohanDocs\CursoEmpresa\BlazorPeliculas\BlazorPeliculas\Server\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\johan\OneDrive\Documentos\GitHub\CursoEmpresa\BlazorPeliculas\BlazorPeliculas\Server
+build_property.MSBuildProjectDirectory = C:\Users\Practicantepc\Documents\JohanDocs\CursoEmpresa\BlazorPeliculas\BlazorPeliculas\Server
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/johan/OneDrive/Documentos/GitHub/CursoEmpresa/BlazorPeliculas/BlazorPeliculas/Server/Pages/Error.cshtml]
+[C:/Users/Practicantepc/Documents/JohanDocs/CursoEmpresa/BlazorPeliculas/BlazorPeliculas/Server/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
