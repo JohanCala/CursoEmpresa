@@ -6,20 +6,20 @@
     <label>@Label</label>
     <div>
         <InputTextArea @bind-Value="CurrentValue" />
-        <ValidationMessage For="For"/>
-
+        <ValidationMessage For="For" />
     </div>
 </div>
 
 <div>
     <label>@Label (preview)</label>
-    <div class="markdown-container" style="overflow:auto">
-        <MostrarMarkDown  ContenidoMarkdown="@CurrentValue">
+    <div class="markdown-container" style="overflow: auto">
+        <MostrarMarkdown ContenidoMarkdown="@CurrentValue">
 
-        </MostrarMarkDown>
+        </MostrarMarkdown>
     </div>
 </div>
+
 @code {
-    [Parameter] public Expression<Func<TValue>>? For {get; set;}
+    [Parameter] public Expression<Func<TValue>>? For { get; set; }
     [Parameter] public string Label { get; set; } = "Campo";
 }
